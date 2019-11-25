@@ -8,7 +8,7 @@ This is a novel bitwise compressing method used to quantize and compress the act
 + Python 3. 6+
 + Tensorflow 1. 4. 0+
 + Sklearn 1. 10. 0+
-+ Pycharm 2018.3.3
++ Pycharm 2018. 3. 3
 
 ### Usage
 
