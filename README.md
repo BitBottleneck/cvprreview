@@ -20,7 +20,7 @@ This is a novel bitwise compressing method used to quantize and compress the act
 + Set `rounding=False` and `print_feature=False`, which meas to use Bit Bottleneck to compress the activation, 
     and set the `is_use_ckpt` to False in `hyper_parameters.py` to gain the initial parameters of new model whose 
     Bit Bottleneck layers are initialized by vector alpha in olny one iteration.
-+ Run `transfer_learning.py`, to transmit the pre-training parameters to coresponding layers except Bit Bottleneck layer.
++ Run `transfer_learning.py`, to transmit the pre-training parameters to coresponding layers except Bit Bottleneck layers.
 + Set the `is_use_ckpt` to True, to retrain the new model in small amount iteration.
 
 Note the change in parameter address when making transfer learning, and the hyper parameters setting which can be found in the paper.
