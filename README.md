@@ -25,7 +25,7 @@ This is a novel bitwise compressing method used to quantize and compress the act
 
 Note the change in parameter address when making transfer learning, and the hyper parameters setting which can be found in the paper.
 
-### Result
+### Results
 
 The result can be found in the paper.
 
